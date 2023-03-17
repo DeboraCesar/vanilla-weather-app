@@ -99,4 +99,15 @@ body {
     margin-right: 5px;
     line-height: 40px;
   }
-  
+  .weather-temperature .active{
+    color: black;
+    cursor: default;
+  }
+  .weather-temperature .active:hover{
+    text-decoration: none;
+  }
+  .weather-temperature .units {
+    position: relative;
+    font-size: 18px;
+    
+  }
